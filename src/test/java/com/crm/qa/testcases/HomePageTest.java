@@ -57,6 +57,11 @@ public class HomePageTest extends TestBase {
 		contacts=homePage.MouseHoverOnContacts();
 		return new ContactsPageTest();
 	}
+	@Test
+	public void homeGitTest()
+	{
+		System.out.println("Home Git Test");
+	}
 	
 	@AfterMethod
 	public void tearDown()
